@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#E2E3E7"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/wyx_invite_topview"
+        android:layout_alignParentTop="true"
+        layout="@layout/wyx_head_layout" />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/game_invite_edit_search_layout"
+        android:layout_below="@+id/wyx_invite_topview"
+        android:background="@drawable/background2"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+        
+     <EditText
+        android:id="@+id/game_invite_edit_search"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="7dp"
+        android:layout_toLeftOf="@+id/game_invite_button_cancle"
+        android:hint="@string/thi_game_invite_edit_hint"
+        android:imeOptions="actionDone"
+        android:inputType="text|textEmailAddress"
+        android:paddingLeft="8dp"
+        android:singleLine="true" />
+
+    <ImageView
+        android:id="@+id/game_invite_imageview_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/game_invite_edit_search"
+        android:layout_alignRight="@+id/game_invite_edit_search"
+        android:layout_alignTop="@+id/game_invite_edit_search"
+        android:paddingRight="7dp"
+        android:src="@drawable/wyx_cleartext_imagebutton" />
+
+    <Button
+        android:id="@+id/game_invite_button_cancle"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/game_invite_edit_search"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="5dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/wyx_send_btn_select"
+        android:text="@string/common_abandon"
+        android:textColor="@android:color/white" />
+        
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/game_invite_send_button"
+        android:layout_below="@+id/game_invite_edit_search_layout" >
+
+        <GridView
+            android:id="@+id/game_invite_gridview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:columnWidth="100dp"
+            android:gravity="center"
+            android:background="@android:color/transparent"
+            android:horizontalSpacing="0dp"
+            android:numColumns="auto_fit"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="15dp" />
+
+        <!--
+             <Button
+            android:id="@+id/game_invite_button_loadmore"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:background="#3A3A3A"
+            android:text="@string/loadmore" /> 
+        -->
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/game_invite_send_button"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/wyx_send_btn_select"
+        android:text="@string/sec_share_sendbtn_text"
+        android:textSize="18dp"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

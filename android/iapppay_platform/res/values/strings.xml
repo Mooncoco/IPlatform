@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">iapppay_platform</string>
+    
+    <string name="iapppay_app_id"></string>
+    <string name="iapppay_app_key"></string>
+    
+</resources>

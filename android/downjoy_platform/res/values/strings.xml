@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidPlatformLib</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_ip">IPActivity</string>
+    <string name="app_id"></string>
+    <string name="app_key"></string>
+    <string name="merchant_id"></string>
+    <string name="server_seq_num"></string>
+    <string name="payment_key"></string>
+    <string name="title_activity_dj">DJActivity</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

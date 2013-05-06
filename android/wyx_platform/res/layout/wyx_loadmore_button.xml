@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/wyx_loadmore_bg"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/load_more"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:text="加载更多"
+        android:layout_height="33dp"
+        android:textColor="#999999"
+        android:textSize="15dp" />
+</LinearLayout>

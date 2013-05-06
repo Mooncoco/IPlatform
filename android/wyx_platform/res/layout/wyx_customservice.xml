@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sec_wyxcustomserver_portrait_mainlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#E2E3E7"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/customservice_header"
+        android:layout_alignParentTop="true"
+        layout="@layout/wyx_header_layout1" />
+
+    <RelativeLayout
+        android:layout_below="@+id/customservice_header"
+        android:id="@+id/customservice_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp" >
+
+        <EditText
+            android:id="@+id/customservice_sendcontent_et"
+            style="@style/edittext_style"
+            android:layout_width="fill_parent"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/wyx_editor_style1"
+            android:gravity="top"
+            android:hint="@string/sec_customserver_question"
+            android:paddingBottom="5dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="4dp"
+            android:paddingTop="5dp"
+            android:textColorHint="#B3B3B3"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/customservice_countwords_tv "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/customservice_sendcontent_et"
+            android:layout_alignRight="@+id/customservice_sendcontent_et"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:paddingBottom="3dp"
+            android:textColor="@android:color/black"
+            android:textSize="10dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

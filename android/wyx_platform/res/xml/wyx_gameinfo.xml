@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="游戏信息设置">
+		<EditTextPreference 
+			android:key="app_key"
+			android:title="App Key（必填）"
+			android:dialogTitle="App Key"/>
+		
+		<EditTextPreference 
+			android:key="app_secret"
+			android:title="App Secret（必填）"
+			android:dialogTitle="App Secret"/>
+		
+		<EditTextPreference 
+			android:key="pay_id"
+			android:title="支付ID（测试支付时必填）"
+			android:dialogTitle="支付ID"/>
+	</PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#E1E3E7"
+    android:orientation="horizontal" >
+
+    <include
+        android:id="@+id/wyx_invite_topview"
+        android:layout_alignParentTop="true"
+        layout="@layout/wyx_head_layout" />
+    
+    <RelativeLayout
+        android:id="@+id/recommand0_layout"
+        android:layout_below="@+id/wyx_invite_topview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/recommand0"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            android:src="@drawable/big"
+            android:background="@drawable/wyx_recommend_select"
+            android:tag="recommand0"
+            android:contentDescription="推荐画面顶部大图片" />
+        
+        <TextView
+            android:id="@+id/recommand0_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/recommand0"
+            android:padding="4dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#333639"
+            android:tag="recommand0"
+            android:textSize="23dp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_below="@+id/wyx_invite_topview"
+        android:layout_toRightOf="@+id/recommand0_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#00000000"
+        android:fadingEdge="none"
+        android:fillViewport="true"
+        android:scrollbars="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/tableRow1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/background4" >
+
+                    <ImageButton
+                        android:id="@+id/recommand1"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="11dp"
+                        android:layout_marginTop="14dp"
+                        android:background="@drawable/wyx_recommend_select"
+                        android:src="@drawable/small"
+                        android:tag="recommand1" />
+                    
+                    <TextView
+                        android:id="@+id/recommand1_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/recommand1"
+                        android:layout_alignRight="@+id/recommand1"
+                        android:layout_below="@+id/recommand1"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#333639"
+                        android:tag="recommand1"
+                        android:textSize="18dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/background4" >
+
+                    <ImageButton
+                        android:id="@+id/recommand2"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="11dp"
+                        android:layout_marginTop="14dp"
+                        android:background="@drawable/wyx_recommend_select"
+                        android:src="@drawable/small"
+                        android:tag="recommand2" />
+
+                    <TextView
+                        android:id="@+id/recommand2_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/recommand2"
+                        android:layout_alignRight="@+id/recommand2"
+                        android:layout_below="@+id/recommand2"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#333639"
+                        android:tag="recommand2"
+                        android:textSize="18dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/background4" >
+
+                    <ImageButton
+                        android:id="@+id/recommand3"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="11dp"
+                        android:layout_marginTop="14dp"
+                        android:background="@drawable/wyx_recommend_select"
+                        android:src="@drawable/small"
+                        android:tag="recommand3" />
+
+                    <TextView
+                        android:id="@+id/recommand3_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/recommand3"
+                        android:layout_alignRight="@+id/recommand3"
+                        android:layout_below="@+id/recommand3"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#333639"
+                        android:tag="recommand3"
+                        android:textSize="18dp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tableRow2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tableRow1"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/background4" >
+
+                    <ImageButton
+                        android:id="@+id/recommand4"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="11dp"
+                        android:layout_marginTop="14dp"
+                        android:background="@drawable/wyx_recommend_select"
+                        android:src="@drawable/small"
+                        android:tag="recommand4" />
+
+                    <TextView
+                        android:id="@+id/recommand4_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/recommand4"
+                        android:layout_alignRight="@+id/recommand4"
+                        android:layout_below="@+id/recommand4"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#333639"
+                        android:tag="recommand4"
+                        android:textSize="18dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/background4" >
+
+                    <ImageButton
+                        android:id="@+id/recommand5"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="11dp"
+                        android:layout_marginTop="14dp"
+                        android:background="@drawable/wyx_recommend_select"
+                        android:src="@drawable/small"
+                        android:tag="recommand5" />
+
+                    <TextView
+                        android:id="@+id/recommand5_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/recommand5"
+                        android:layout_alignRight="@+id/recommand5"
+                        android:layout_below="@+id/recommand5"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#333639"
+                        android:tag="recommand5"
+                        android:textSize="18dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/background4" >
+
+                    <ImageButton
+                        android:id="@+id/recommand6"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="11dp"
+                        android:layout_marginTop="14dp"
+                        android:background="@drawable/wyx_recommend_select"
+                        android:src="@drawable/small"
+                        android:tag="recommand6" />
+
+                    <TextView
+                        android:id="@+id/recommand6_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/recommand6"
+                        android:layout_alignRight="@+id/recommand6"
+                        android:layout_below="@+id/recommand6"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#333639"
+                        android:tag="recommand6"
+                        android:textSize="18dp" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

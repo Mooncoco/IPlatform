@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wyxmenu_left"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/btn_wyxicon_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/wyx_bar_btn_icon_left" />
+    </FrameLayout>
+
+    <include
+        android:id="@+id/includemenu_left"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/wyx_menu_left" />
+
+</LinearLayout>

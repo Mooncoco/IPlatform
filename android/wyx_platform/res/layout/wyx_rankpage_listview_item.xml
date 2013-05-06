@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background3"
+    android:orientation="horizontal" >
+
+    <FrameLayout
+        android:id="@+id/friend_image_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp" >
+
+        <ImageView
+            android:id="@+id/friend_image"
+            style="@style/face_size1"
+            android:src="@drawable/wyx_face_default" />
+
+        <TextView
+            android:id="@+id/friend_rank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:minHeight="15dp"
+            android:minWidth="15dp"
+            android:textColor="@android:color/white"
+            android:textSize="9dp" />
+    </FrameLayout>
+
+    <TextView
+        android:layout_toRightOf="@id/friend_image_frame"
+        android:id="@+id/friend_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/friend_image"
+        android:paddingLeft="10dp"
+        android:textColor="#333639"
+        android:textSize="20dp" />
+
+     <ImageView
+         android:layout_marginLeft="10dp"
+     	 android:layout_marginTop="35dp"
+     	 android:layout_toRightOf="@id/friend_image_frame"
+         android:id="@+id/friend_sex"
+         android:layout_alignBottom="@+id/friend_image"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/friend_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:textColor="#2F80DC"
+        android:textSize="14dp" />
+
+</RelativeLayout>

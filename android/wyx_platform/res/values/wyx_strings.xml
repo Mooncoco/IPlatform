@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wyxsdk_appname">wyxsdk</string>
+    <string name="common_send">发送</string>
+    <string name="common_send_successed">发送成功</string>
+    <string name="common_request_empty">数据取得失败</string>
+    <string name="common_network_not_available">您的网络好像不可用</string>
+    <string name="common_abandon">放弃</string>
+    <string name="fir_gamecenter_loadmorebtn">更多\u2026</string>
+    <!-- 排行页面所用到的字符串变量 star -->
+    <string name="wyxsdk_rank_page_myinfo_fail">我的信息取得失败</string>
+    <string name="wyxsdk_rank_page_myfriend_fail">我的好友信息取得失败</string>
+    <string name="wyxsdk_rank_page_myfriend_empty">您还没有好友玩此游戏</string>
+    <!-- 排行页面所用到的字符串变量 end -->
+    <string name="fir_setting_share">分享</string>
+    <string name="common_loaddata_fail">页面数据加载失败</string>
+    <string name="common_send_fail">内容发送失败</string>
+    <!-- 微游戏客服 star -->
+    <string name="sec_customserver_question">#请输入游戏名称#请将您的问题反馈给微游戏客服，我们会尽快给您回复。</string>
+    <string name="sec_customserver_send_success">发送成功，微游戏客服会尽快给予回复</string>
+    <string name="sec_customserver_message">#移动端问题反馈#</string>
+    <string name="fir_setting_custom_server">微游戏客服</string>
+    <!-- 微游戏客服 end -->
+    
+    <string name="common_too_more">输入字数不能超过80字</string>
+    <string name="common_no_question">请输入回复内容</string>
+    
+    <!-- 分享页面用到的字符串常量  Start -->
+    <string name="sec_share_sending_text">正在发送</string>
+    <string name="sec_share_sendbtn_text">发送</string>
+    <string name="sec_share_title_text">分享</string>
+    <string name="sec_share_too_more">输入字数不能超过</string>
+    <string name="sec_share_please_input">请输入分享内容</string>
+    <string name="sec_share_no_content">亲，发送内容不能为空哦</string>
+    <string name="sec_share_send_success">内容发送成功</string>
+    <string name="sec_share_send_fail">内容发送失败</string>
+    <string name="thi_share_default1">我正在玩</string>
+    <string name="thi_share_default2">，你也快来玩呦。</string>
+    <string name="sec_share_default3">我正在使用微游戏客户端，它可是微博的官方游戏平台哦，里面有各种新奇好玩的游戏，亲，快来下载哟～～～</string>
+    <string name="sec_share_default7">http://t.cn/zWKyAv9</string>
+    <string name="sec_share_send_repeated">发送微博内容重复</string>
+    <string name="thi_capture_share_title_text">截屏发微博</string>
+
+    <!-- 分享页面用到的字符串常量  End -->
+    
+    <!-- 邀请 Start -->
+    <string name="thi_game_invite_edit_hint">输入查询</string>
+    <string name="thi_game_invite_toast_text">您没有选中任何好友</string>
+    <string name="thi_game_nodata_toast_text">您没有好友信息</string>
+    <!-- 邀请 End -->
+    
+</resources> 

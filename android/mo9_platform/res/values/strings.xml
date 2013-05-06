@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">Mo9PlatformInterface</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_mo9_platform">Mo9PlatformActivity</string>
+    
+    <string name="app_id"></string>
+    <string name="app_key"></string>
+    <string name="app_email"></string>
+    <string name="app_version"></string>
+    <string name="app_notify"></string>
+
+</resources>

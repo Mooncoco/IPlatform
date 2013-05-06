@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">duandai_platform</string>
+    
+    <string-array name="unicom_1">
+        <item></item>
+    </string-array>
+    
+    <string-array name="telecom_1">
+        <item></item>
+    </string-array>
+    
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="47dp"
+    android:background="@drawable/background1" >
+
+    <TextView
+        android:id="@+id/common_thi_header_layout1_textView_title"
+        style="@style/Font3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/thi_capture_share_title_text" />
+
+    <Button
+        android:id="@+id/common_thi_header_layout1_button_backbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/wyx_back_selector1"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/thi_share_capture_sendbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/common_send_btn_select"
+        android:gravity="center"/>
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 客户端用到的字体style start -->
+    <style name="Font1" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <style name="Font2" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="Font3" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Font4" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <style name="Font5" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">24dp</item>
+    </style>
+
+    <style name="Font6" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="face_size1">
+        <item name="android:layout_width">49dp</item>
+        <item name="android:layout_height">49dp</item>
+    </style>
+    <!-- 客户端用到的字体style end -->
+
+    <!-- edittext所用到的style start -->
+    <style name="edittext_style" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/wyx_editor_style1</item>
+    </style>
+    <!-- edittext所用到的style end -->
+</resources>

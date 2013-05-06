@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#E2E3E7" >
+
+    <include
+        android:id="@+id/capture_header"
+        android:layout_alignParentTop="true"
+        layout="@layout/wyx_header_layout1" />
+
+    <ImageView
+        android:id="@+id/divider"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/capture_header"
+        android:background="@drawable/wyx_divider1" />
+
+    <RelativeLayout
+        android:id="@+id/thi_capture_share_laytout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/divider"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/wyx_edittext_roundcorner" >
+
+        <FrameLayout
+            android:id="@+id/thi_capture_share_gameimage_imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/divider"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:paddingBottom="5dp" >
+        </FrameLayout>
+
+        <EditText
+            android:id="@+id/thi_capture_share_content_edittext"
+            style="@style/edittext_style"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/thi_capture_share_gameimage_imageview"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/thi_capture_share_gameimage_imageview"
+            android:background="@drawable/wyx_edittext_roundcorner"
+            android:gravity="top"
+            android:paddingBottom="20dp"
+            android:paddingLeft="10dp"
+            android:textColor="#999999"
+            android:textSize="18dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/thi_capture_share_charactersremain_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/thi_capture_share_laytout"
+        android:layout_alignRight="@+id/thi_capture_share_laytout"
+        android:layout_marginRight="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="10dp" />
+
+</RelativeLayout>

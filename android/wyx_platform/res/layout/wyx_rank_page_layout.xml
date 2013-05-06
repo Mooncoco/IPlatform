@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#E2E3E7"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rank_head"
+        android:layout_width="fill_parent"
+        android:layout_height="47dp"
+        android:background="@drawable/background1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/rank_back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/wyx_back_selector1" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal"
+            android:paddingBottom="6dp" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:src="@drawable/wyx_paihangbang_2x" />
+
+            <TextView
+                android:id="@+id/rank_name"
+                style="@style/Font3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:paddingLeft="10dp" />
+        </LinearLayout>
+        
+     <Button
+        android:id="@+id/rank_refresh_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/wyx_refresh_select1" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/my_information"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/rank_head"
+        android:background="@drawable/background2"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/my_image"
+            style="@style/face_size1"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/wyx_face_default" />
+
+        <TextView
+            android:id="@+id/my_rank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/my_image"
+            android:layout_alignTop="@+id/my_image"
+            android:background="#D55813"
+            android:gravity="center_horizontal"
+            android:minHeight="15dp"
+            android:minWidth="15dp"
+            android:textColor="@android:color/white"
+            android:textSize="9dp" />
+
+        <TextView
+            android:id="@+id/my_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="bottom"
+            android:layout_toRightOf="@id/my_image"
+            android:paddingLeft="10dp"
+            android:textColor="#333639"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/my_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:textColor="#2F80DC"
+            android:textSize="14dp" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/rank_ListView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/my_information"
+        android:cacheColorHint="#00000000"
+        android:clickable="false"
+        android:fadingEdge="none" >
+    </ListView>
+
+</RelativeLayout>
